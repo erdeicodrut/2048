@@ -27,22 +27,10 @@ void setup() {
 }
 
 void draw() {
-    drawMatrix();
     move(dir);
+    drawMatrix();
     spawnRandom2();
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 void move(char dir) {
 
